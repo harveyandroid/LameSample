@@ -5,7 +5,6 @@ import android.media.AudioRecord
 import android.media.MediaRecorder
 import android.os.Environment
 import android.util.Log
-import com.avatarcn.apps.audio.RecordError
 import com.avatarcn.lame.AvatarLameMp3
 import kotlinx.coroutines.*
 import java.io.FileOutputStream
