@@ -9,7 +9,8 @@ android  studio cmake 编译Lame v3.100 录音MP3测试
     -libmp3lame/vector/lame_intrin.h和 xmm_quantize_sub.c 文件
     -configMS.h 文件
 3. 配置Gradle文件
-    ```externalNativeBuild {
+    ```Gradle
+    externalNativeBuild {
                 cmake {
                     cppFlags "-frtti -fexceptions"
                     cFlags "-DSTDC_HEADERS"
