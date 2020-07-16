@@ -4,16 +4,16 @@
 # Sets the minimum version of CMake required to build the native library.
 
 cmake_minimum_required(VERSION 3.4.1)
-SET(leme_dir ${CMAKE_SOURCE_DIR}/leme)
+SET(lame_dir ${CMAKE_SOURCE_DIR}/lame)
 # 将给定目录添加到编译器用于搜索包含文件的目录中。相对路径被解释为相对于当前源目录
 # 是用来提供编译搜索头文件路径的
-include_directories(${leme_dir})
+include_directories(${lame_dir})
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
 #设定一个目录
-aux_source_directory(${leme_dir} SRC_LIST)
+aux_source_directory(${lame_dir} SRC_LIST)
 
 add_library( # Sets the name of the library.
         lamemp3
